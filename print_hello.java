@@ -2,5 +2,7 @@ class a
 {
 public static void main(String args[])
 {
-System.out.println("Hello");
+int a,b;
+  a=10;
+  b=20;
 }}
