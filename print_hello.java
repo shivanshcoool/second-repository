@@ -7,5 +7,5 @@ int a,b;
   b=20;.
   int sum=0;
   sum = a+b;
-  System.out.println("Sum is " + sum);
+  System.out.println("Sum : " + sum);
 }}
