@@ -1,11 +1,12 @@
-class a
-{
+public class Apple{
+	public int aMethod(){
+	static int i=0;
+	i++;
+	return i;
+}
 public static void main(String args[])
 {
-int a,b;
-  a=10;
-  b=20;.
-  int sum=0;
-  sum = a+b;
-  System.out.println("Sum : " + sum);
-}}
+	Apple app=new Apple();
+	app.aMethod();
+	int j=app.aMethod();
+System.out.println(j);}}
